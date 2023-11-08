@@ -974,12 +974,15 @@ canvas {
 @media(max-width: 1024px) {
 	.insert-image--2 {
 		position: absolute;
-		right: -131%;
-		top: -13%;
-		width: calc(583 * 1366 * 1px / 1366);
+		right: -30%;
+		top: 65%;
+		/*right: -131%;
+		top: -13%;*/
+		width: 500px;
+		/*width: calc(583 * 1366 * 1px / 1366);
 		width: calc(583 * var(--width-multiplier));
 		height: calc(584 * 1366 * 1px / 1366);
-		height: calc(584 * var(--width-multiplier))
+		height: calc(584 * var(--width-multiplier))*/
 	}
 }
 
@@ -1667,7 +1670,7 @@ canvas {
 		right: 0;
 		height: 100%;
 		width: 100%;
-		background: url(./assets/images/image..jpg) center center no-repeat;
+		background: url(./assets/images/intro/image.png) center center no-repeat;
 		background-size: cover
 	}
 }
@@ -3698,7 +3701,7 @@ span#total_c {
 .slider{
 	display: flex;
 	white-space: nowrap;
-	animation: scroll 25s linear infinite;
+	animation: scroll 35s linear infinite;
 	align-items: center;
 }
 
