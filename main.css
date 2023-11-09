@@ -3706,12 +3706,21 @@ span#total_c {
 }
 
 .partnerLogo{
-	margin-right: 100px;
 	display: inline-block;
+	width: 300px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(16, 30, 5, 0.4);
+	margin-right: 20px;
+	border: 1px solid #2f9b5f;
+	border-radius: 10px;
 }
 
 .partnerLogo img{
-	min-width: 160px !important;
+	min-width: 200px;
+	margin: 100px;
 }
 
 @keyframes scroll{
