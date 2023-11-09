@@ -978,7 +978,7 @@ canvas {
 		top: 65%;
 		/*right: -131%;
 		top: -13%;*/
-		width: 500px;
+		width: 350px;
 		/*width: calc(583 * 1366 * 1px / 1366);
 		width: calc(583 * var(--width-multiplier));
 		height: calc(584 * 1366 * 1px / 1366);
