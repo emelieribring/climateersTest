@@ -3691,7 +3691,11 @@ span#total_c {
 	margin-top: 50px;
 }
 
-
+.partners{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
 
 .partnerSlider{
 	width: 100%;
@@ -3731,13 +3735,20 @@ span#total_c {
 		transform: translateX(0);
 	}
 	50%{
-		transform: translateX(-100%);
+		transform: translateX(-50%);
 	}
 	75%{
-		transform: translateX(-200%);
+		transform: translateX(-100%);
 	}
 	100%{
-		transform: translateX(-280%);
+		transform: translateX(-200%);
 	}
 }
 
+@media screen and (max-width:500px) {
+	
+	.slider{
+		animation: scroll 10s linear infinite;
+	}
+
+}
