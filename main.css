@@ -3705,7 +3705,7 @@ span#total_c {
 .slider{
 	display: flex;
 	white-space: nowrap;
-	animation: scroll 35s linear infinite;
+	animation: scroll 20s linear infinite;
 	align-items: center;
 }
 
@@ -3732,13 +3732,13 @@ span#total_c {
 		transform: translateX(100%);
 	}
 	25%{
-		transform: translateX(0);
+		transform: translateX(25%);
 	}
 	50%{
 		transform: translateX(-50%);
 	}
 	75%{
-		transform: translateX(-100%);
+		transform: translateX(-125%);
 	}
 	100%{
 		transform: translateX(-200%);
@@ -3748,7 +3748,25 @@ span#total_c {
 @media screen and (max-width:500px) {
 	
 	.slider{
-		animation: scroll 10s linear infinite;
+		animation: scroll 20s linear infinite;
+	}	
+	
+	@keyframes scroll{
+		0%{
+			transform: translateX(100%);
+		}
+		25%{
+			transform: translateX(-50%);
+		}
+		50%{
+			transform: translateX(-200%);
+		}
+		75%{
+			transform: translateX(-350%);
+		}
+		100%{
+			transform: translateX(-500%);
+		}
 	}
 
 }
